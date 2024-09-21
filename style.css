@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Altura del 100% de la pantalla */
+  height: 50vh; 
 }
 
 .responsive-image {
@@ -21,20 +21,20 @@
   color: #fff;
   text-align: center;
   font-size: 2.2em;
-  line-height: 1.5em; /* Añade espacio entre las líneas para mejor legibilidad */
-  padding: 20px; /* Añade espacio alrededor del texto */
-  max-width: 80%; /* Limita el ancho del texto para que no ocupe toda la pantalla */
-  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  line-height: 1.5em; 
+  padding: 20px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 p {
-  word-break: break-word; /* Asegura que las palabras largas se ajusten correctamente */
+  word-break: break-word; 
   font-style: italic; 
 }
 
 @media only screen and (max-width: 560px) {
   .responsive-image {
-      height: 90vh; /* 50% de la altura de la pantalla cuando la resolución es de 560px o menos */
+      height: 90vh; 
   }
 }
 :root {
